@@ -6,11 +6,9 @@ print(f"Original Input Array = {arr}")
 
 def insertion_sort(arr):
 	len_arr = len(arr)
-	for i in range(0, len_arr-1):
-		min = i
-		for j in range(i, len_arr):
-			if arr[min] > arr[j]:
-				min = j
+	for i in range(0, len_arr):
+		for j in range(i, -1, -1):
+			if arr[i] > arr[j-1]
 		arr[i], arr[min] = arr[min], arr[i]
 	return arr
 

@@ -167,7 +167,7 @@ random.shuffle(arr)
 for i in range(12):
 	tmp = int(input())
 	bst.insert(tmp)
-bst.delete(5)
+#bst.delete()
 bst.preorder()
 bst.inorder()
 bst.postorder()

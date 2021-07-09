@@ -48,7 +48,7 @@ class Binary_Search_Tree:
 		elif number < prev.data:
 			prev.left = Node(number)
 
-	def delete(self, number):
+	def delete(self, number):  # Delete Algorithm isn't working
 		tmp = self.root
 		prev = None
 		isleft = True      #True : prev's left child is tmp.
